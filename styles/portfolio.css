@@ -100,6 +100,7 @@ main section {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 230px;
+    gap: 100px;
 }
 
 .about-info-container {
@@ -177,31 +178,27 @@ footer{
     display: flex;
     background-color: #FFF8F3;
     margin-top: 100px;
-    padding: 130px;
+    padding: 130px 200px;
 }
-.resume-container{
-    display: flex;
-    gap: 50px;
+.footer-column
+{
+    width: 50%;
 }
-.resume-item-title{
-    color: #181818;
-font-size: 25px;
-font-weight: 700;
-margin-bottom: 10px;
+
+.social-links{
+    margin-right: 25px;
 }
-.resume-item-institute{
+
+.contact, input[type="text"], .contact input[type="email"], textarea {
+    display: block;
     margin-bottom: 20px;
-    margin-top: 0px;
-}
-.resume-item-institute, .resume-item-description{
+    padding: 25px 36px;
     color: #757575;
-}
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
+}   
 
-.resume-container hr{
-    margin: 30px;
-}
 
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
-}
+
